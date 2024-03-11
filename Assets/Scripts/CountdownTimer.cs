@@ -22,7 +22,7 @@ public class CountdownTimer : MonoBehaviour
     void Update()
     {
         //check if gameOverScreen is not active
-        if (!gameOverScreen.activeSelf || !victoryScreen.activeSelf)
+        if (!gameOverScreen.activeInHierarchy || !victoryScreen.activeInHierarchy)
         {
             timerSO.Value -= Time.deltaTime;
             DisplayTime(timerSO.Value);

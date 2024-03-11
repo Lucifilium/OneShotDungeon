@@ -607,8 +607,13 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7798310987873209009, guid: 63237699e019ea143b833b381fe57989, type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents:
-    - {fileID: 7798310987873209009, guid: 63237699e019ea143b833b381fe57989, type: 3}
+    - {fileID: 1079222534821594073, guid: 63237699e019ea143b833b381fe57989, type: 3}
+    - {fileID: 5115821359606743688, guid: 63237699e019ea143b833b381fe57989, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
@@ -4985,6 +4990,10 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 604704407}
     - target: {fileID: 2087276366413972464, guid: 07846d9c858db784b828d6a96fd36244, type: 3}
+      propertyPath: gameOverAudio
+      value: 
+      objectReference: {fileID: 1098705712}
+    - target: {fileID: 2087276366413972464, guid: 07846d9c858db784b828d6a96fd36244, type: 3}
       propertyPath: victoryScreen
       value: 
       objectReference: {fileID: 2001556019}
@@ -5399,6 +5408,11 @@ Canvas:
 --- !u!1 &1098705710 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 3306079134572861777, guid: 63237699e019ea143b833b381fe57989, type: 3}
+  m_PrefabInstance: {fileID: 310711626}
+  m_PrefabAsset: {fileID: 0}
+--- !u!82 &1098705712 stripped
+AudioSource:
+  m_CorrespondingSourceObject: {fileID: 7798310987873209009, guid: 63237699e019ea143b833b381fe57989, type: 3}
   m_PrefabInstance: {fileID: 310711626}
   m_PrefabAsset: {fileID: 0}
 --- !u!1 &1272901971
@@ -9851,15 +9865,11 @@ PrefabInstance:
       objectReference: {fileID: 604704407}
     - target: {fileID: 1256785984133956914, guid: b3d5b1ca4673b4f4b98a2d1ca3bb4f89, type: 3}
       propertyPath: teleportRange
-      value: 5
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 1256785984133956914, guid: b3d5b1ca4673b4f4b98a2d1ca3bb4f89, type: 3}
       propertyPath: stoppingDistance
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 1256785984133956914, guid: b3d5b1ca4673b4f4b98a2d1ca3bb4f89, type: 3}
-      propertyPath: teleportCooldown
-      value: 3
+      value: 1.9
       objectReference: {fileID: 0}
     - target: {fileID: 1789067251314335531, guid: b3d5b1ca4673b4f4b98a2d1ca3bb4f89, type: 3}
       propertyPath: m_Enabled
@@ -9925,22 +9935,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 4066087617959162508, guid: b3d5b1ca4673b4f4b98a2d1ca3bb4f89, type: 3}
-      propertyPath: m_Size.x
-      value: 5.1121845
-      objectReference: {fileID: 0}
-    - target: {fileID: 4066087617959162508, guid: b3d5b1ca4673b4f4b98a2d1ca3bb4f89, type: 3}
-      propertyPath: m_Size.y
-      value: 3.8927803
-      objectReference: {fileID: 0}
-    - target: {fileID: 4066087617959162508, guid: b3d5b1ca4673b4f4b98a2d1ca3bb4f89, type: 3}
-      propertyPath: m_Offset.x
-      value: -2.4685488
-      objectReference: {fileID: 0}
-    - target: {fileID: 4066087617959162508, guid: b3d5b1ca4673b4f4b98a2d1ca3bb4f89, type: 3}
-      propertyPath: m_Offset.y
-      value: 0.34638953
-      objectReference: {fileID: 0}
     - target: {fileID: 5165058498391086869, guid: b3d5b1ca4673b4f4b98a2d1ca3bb4f89, type: 3}
       propertyPath: m_Enabled
       value: 1
@@ -9955,15 +9949,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8399527461811866947, guid: b3d5b1ca4673b4f4b98a2d1ca3bb4f89, type: 3}
       propertyPath: _health
-      value: 1
+      value: 300
       objectReference: {fileID: 0}
     - target: {fileID: 8399527461811866947, guid: b3d5b1ca4673b4f4b98a2d1ca3bb4f89, type: 3}
       propertyPath: _maxHealth
-      value: 500
-      objectReference: {fileID: 0}
-    - target: {fileID: 8399527461811866947, guid: b3d5b1ca4673b4f4b98a2d1ca3bb4f89, type: 3}
-      propertyPath: invincibilityTime
-      value: 0.25
+      value: 300
       objectReference: {fileID: 0}
     - target: {fileID: 8485004348966162084, guid: b3d5b1ca4673b4f4b98a2d1ca3bb4f89, type: 3}
       propertyPath: m_Name
@@ -9977,8 +9967,7 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 10
       objectReference: {fileID: 0}
-    m_RemovedComponents:
-    - {fileID: 1347391803163257329, guid: b3d5b1ca4673b4f4b98a2d1ca3bb4f89, type: 3}
+    m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []

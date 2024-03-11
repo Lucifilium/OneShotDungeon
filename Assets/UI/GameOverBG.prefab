@@ -693,7 +693,6 @@ GameObject:
   - component: {fileID: 5840731691039818727}
   - component: {fileID: 8998534890545486829}
   - component: {fileID: 1178188123374372641}
-  - component: {fileID: 4224346997161873176}
   m_Layer: 5
   m_Name: GameOverBG
   m_TagString: Untagged
@@ -859,18 +858,6 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
---- !u!114 &4224346997161873176
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5873085518403523777}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3dcb19323d2c5f44db7c1d97dceeff2c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &7025506824499217864
 GameObject:
   m_ObjectHideFlags: 0

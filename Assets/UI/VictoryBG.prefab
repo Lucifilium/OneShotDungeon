@@ -425,7 +425,6 @@ GameObject:
   - component: {fileID: 5731073689800360164}
   - component: {fileID: 696645743720856601}
   - component: {fileID: 6130068315045628605}
-  - component: {fileID: 4520745008036417605}
   m_Layer: 5
   m_Name: VictoryBG
   m_TagString: Untagged
@@ -591,18 +590,6 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
---- !u!114 &4520745008036417605
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6654326048972337110}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 194be0327c341f94e8804a4215b69031, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &7536466966624565602
 GameObject:
   m_ObjectHideFlags: 0

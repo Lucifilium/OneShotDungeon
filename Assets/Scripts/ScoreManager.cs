@@ -36,7 +36,7 @@ public class ScoreManager : MonoBehaviour
     {
         // Calculate score based on remaining time from countdown timer
         float remainingTime = countdownTimer.RemainingTime;
-        float timeScore = Mathf.FloorToInt(remainingTime) * 10;
+        float timeScore = Mathf.FloorToInt(remainingTime * 10);
 
         // Update UI texts
         scoreText.text = "Score: " + scoreSO.Value;

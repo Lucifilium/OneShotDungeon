@@ -9,6 +9,7 @@ public class GameManager : MonoBehaviour
     public GameObject gameOverScreen;
     public GameObject victoryScreen;
     private GameMusic gameMusic;
+    public AudioSource gameOverAudio;
 
     // Delay before displaying game over screen
     public float gameOverDelay = 1f;
@@ -42,6 +43,11 @@ public class GameManager : MonoBehaviour
     {
         victoryScreen.SetActive(true);
         gameOverScreen.SetActive(true);
+        // Disable the GameOver audio source
+        if (gameOverAudio != null)
+        {
+            gameOverAudio.enabled = false;
+        }
     }
 
     public void GameOver()
